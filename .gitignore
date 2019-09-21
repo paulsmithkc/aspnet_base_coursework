@@ -11,8 +11,34 @@ Thumbs.db
 #Ignore temporary Office files
 ~$*
 
-#Ignore build files created by Visual Studio
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Pp]ackages/
+
+# Visual Studio 2015/2017 cache/options directory
 .vs/
+
+#Ignore build files created by Visual Studio
 *.obj
 *.exe
 *.pdb
@@ -36,3 +62,5 @@ Thumbs.db
 *.sbr
 *.tmp
 *.tmp_proj
+*.dbmdl
+*.jfm
